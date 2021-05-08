@@ -1,0 +1,28 @@
+{{#each this}}
+  <li>
+    <img src={{image}} alt={{title}} />
+    <h3>
+      Название: {{title}}
+    </h3>
+    <p>
+      Серия: {{seria}}
+    </p>
+    <p>
+      Категория: {{category}}
+    </p>
+    <div>
+      <p>
+        {{author.name}}
+      </p>
+      <p>
+        {{author.country}}
+        <span>
+          {{author.city}}
+        </span>
+      </p>
+    </div>
+    <p>
+      {{description}}
+    </p>
+  </li>
+{{/each}}
