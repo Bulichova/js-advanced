@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "foto",
+      "author": "Ya",
+      "id": 14
+    },
+    {
+      "title": "foto",
+      "author": "Ya",
+      "id": 15
+    },
+    {
+      "title": "foto",
+      "author": "Ya",
+      "id": 16
+    },
+    {
+      "title": "foto",
+      "author": "Ya",
+      "id": 17
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
